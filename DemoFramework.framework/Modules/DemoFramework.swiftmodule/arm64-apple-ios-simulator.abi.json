@@ -1,0 +1,3569 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "DemoFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManager",
+                "printedName": "DemoFramework.NetworkManager",
+                "usr": "s:13DemoFramework14NetworkManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework14NetworkManagerC6sharedACvpZ",
+            "mangledName": "$s13DemoFramework14NetworkManagerC6sharedACvpZ",
+            "moduleName": "DemoFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkManager",
+                    "printedName": "DemoFramework.NetworkManager",
+                    "usr": "s:13DemoFramework14NetworkManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework14NetworkManagerC6sharedACvgZ",
+                "mangledName": "$s13DemoFramework14NetworkManagerC6sharedACvgZ",
+                "moduleName": "DemoFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fetchUsers",
+            "printedName": "fetchUsers(page:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<DemoFramework.UserResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<DemoFramework.UserResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserResponse",
+                        "printedName": "DemoFramework.UserResponse",
+                        "usr": "s:13DemoFramework12UserResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DemoFramework14NetworkManagerC10fetchUsers4page10completionySi_ys6ResultOyAA12UserResponseVs5Error_pGctF",
+            "mangledName": "$s13DemoFramework14NetworkManagerC10fetchUsers4page10completionySi_ys6ResultOyAA12UserResponseVs5Error_pGctF",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13DemoFramework14NetworkManagerC",
+        "mangledName": "$s13DemoFramework14NetworkManagerC",
+        "moduleName": "DemoFramework",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DemoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "passDataFromFramework",
+        "printedName": "passDataFromFramework",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getResultData",
+            "printedName": "getResultData(email:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DemoFramework012passDataFromB0P09getResultD05emailySS_tF",
+            "mangledName": "$s13DemoFramework012passDataFromB0P09getResultD05emailySS_tF",
+            "moduleName": "DemoFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : DemoFramework.passDataFromFramework>",
+            "sugared_genericSig": "<Self where Self : DemoFramework.passDataFromFramework>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13DemoFramework012passDataFromB0P",
+        "mangledName": "$s13DemoFramework012passDataFromB0P",
+        "moduleName": "DemoFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ListViewController",
+        "printedName": "ListViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tableView",
+            "printedName": "tableView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UITableView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DemoFramework@objc(cs)ListViewController(py)tableView",
+            "mangledName": "$s13DemoFramework18ListViewControllerC05tableD0So07UITableD0CSgvp",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UITableView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UITableView",
+                        "printedName": "UIKit.UITableView",
+                        "usr": "c:objc(cs)UITableView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListViewController(im)tableView",
+                "mangledName": "$s13DemoFramework18ListViewControllerC05tableD0So07UITableD0CSgvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UITableView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UITableView",
+                        "printedName": "UIKit.UITableView",
+                        "usr": "c:objc(cs)UITableView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListViewController(im)setTableView:",
+                "mangledName": "$s13DemoFramework18ListViewControllerC05tableD0So07UITableD0CSgvs",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework18ListViewControllerC05tableD0So07UITableD0CSgvM",
+                "mangledName": "$s13DemoFramework18ListViewControllerC05tableD0So07UITableD0CSgvM",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any DemoFramework.passDataFromFramework)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvp",
+            "mangledName": "$s13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvp",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any DemoFramework.passDataFromFramework)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "passDataFromFramework",
+                        "printedName": "any DemoFramework.passDataFromFramework",
+                        "usr": "s:13DemoFramework012passDataFromB0P"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvg",
+                "mangledName": "$s13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any DemoFramework.passDataFromFramework)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "passDataFromFramework",
+                        "printedName": "any DemoFramework.passDataFromFramework",
+                        "usr": "s:13DemoFramework012passDataFromB0P"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvs",
+                "mangledName": "$s13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvs",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvM",
+                "mangledName": "$s13DemoFramework18ListViewControllerC8delegateAA012passDataFromB0_pSgvM",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewModel",
+            "printedName": "viewModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ListViewModel",
+                "printedName": "DemoFramework.ListViewModel",
+                "usr": "s:13DemoFramework13ListViewModelC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework18ListViewControllerC9viewModelAA0cdG0Cvp",
+            "mangledName": "$s13DemoFramework18ListViewControllerC9viewModelAA0cdG0Cvp",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ListViewModel",
+                    "printedName": "DemoFramework.ListViewModel",
+                    "usr": "s:13DemoFramework13ListViewModelC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework18ListViewControllerC9viewModelAA0cdG0Cvg",
+                "mangledName": "$s13DemoFramework18ListViewControllerC9viewModelAA0cdG0Cvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ListViewModel",
+                    "printedName": "DemoFramework.ListViewModel",
+                    "usr": "s:13DemoFramework13ListViewModelC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework18ListViewControllerC9viewModelAA0cdG0Cvs",
+                "mangledName": "$s13DemoFramework18ListViewControllerC9viewModelAA0cdG0Cvs",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework18ListViewControllerC9viewModelAA0cdG0CvM",
+                "mangledName": "$s13DemoFramework18ListViewControllerC9viewModelAA0cdG0CvM",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DemoFramework@objc(cs)ListViewController(im)viewDidLoad",
+            "mangledName": "$s13DemoFramework18ListViewControllerC11viewDidLoadyyF",
+            "moduleName": "DemoFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerCells",
+            "printedName": "registerCells()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DemoFramework18ListViewControllerC13registerCellsyyF",
+            "mangledName": "$s13DemoFramework18ListViewControllerC13registerCellsyyF",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didTapBAckToApp",
+            "printedName": "didTapBAckToApp(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DemoFramework@objc(cs)ListViewController(im)didTapBAckToApp:",
+            "mangledName": "$s13DemoFramework18ListViewControllerC15didTapBAckToAppyySo8UIButtonCF",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "IBAction",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ListViewController",
+                "printedName": "DemoFramework.ListViewController",
+                "usr": "c:@M@DemoFramework@objc(cs)ListViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DemoFramework@objc(cs)ListViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s13DemoFramework18ListViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "DemoFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DemoFramework.ListViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ListViewController",
+                    "printedName": "DemoFramework.ListViewController",
+                    "usr": "c:@M@DemoFramework@objc(cs)ListViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DemoFramework@objc(cs)ListViewController(im)initWithCoder:",
+            "mangledName": "$s13DemoFramework18ListViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "DemoFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DemoFramework@objc(cs)ListViewController(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s13DemoFramework18ListViewControllerC05tableD0_21numberOfRowsInSectionSiSo07UITableD0C_SitF",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DemoFramework@objc(cs)ListViewController(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s13DemoFramework18ListViewControllerC05tableD0_12cellForRowAtSo07UITableD4CellCSo0kD0C_10Foundation9IndexPathVtF",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DemoFramework@objc(cs)ListViewController",
+        "mangledName": "$s13DemoFramework18ListViewControllerC",
+        "moduleName": "DemoFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ListViewModel",
+        "printedName": "ListViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "listModel",
+            "printedName": "listModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DemoFramework.UserResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserResponse",
+                    "printedName": "DemoFramework.UserResponse",
+                    "usr": "s:13DemoFramework12UserResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvp",
+            "mangledName": "$s13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvp",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.UserResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserResponse",
+                        "printedName": "DemoFramework.UserResponse",
+                        "usr": "s:13DemoFramework12UserResponseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvg",
+                "mangledName": "$s13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.UserResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserResponse",
+                        "printedName": "DemoFramework.UserResponse",
+                        "usr": "s:13DemoFramework12UserResponseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvs",
+                "mangledName": "$s13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvs",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvM",
+                "mangledName": "$s13DemoFramework13ListViewModelC04listE0AA12UserResponseVSgvM",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getList",
+            "printedName": "getList(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DemoFramework13ListViewModelC03getC010completionyyyc_tF",
+            "mangledName": "$s13DemoFramework13ListViewModelC03getC010completionyyyc_tF",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ListViewModel",
+                "printedName": "DemoFramework.ListViewModel",
+                "usr": "s:13DemoFramework13ListViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DemoFramework13ListViewModelCACycfc",
+            "mangledName": "$s13DemoFramework13ListViewModelCACycfc",
+            "moduleName": "DemoFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13DemoFramework13ListViewModelC",
+        "mangledName": "$s13DemoFramework13ListViewModelC",
+        "moduleName": "DemoFramework",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "User",
+        "printedName": "User",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework4UserV2idSivp",
+            "mangledName": "$s13DemoFramework4UserV2idSivp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework4UserV2idSivg",
+                "mangledName": "$s13DemoFramework4UserV2idSivg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework4UserV5emailSSvp",
+            "mangledName": "$s13DemoFramework4UserV5emailSSvp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework4UserV5emailSSvg",
+                "mangledName": "$s13DemoFramework4UserV5emailSSvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework4UserV9firstNameSSvp",
+            "mangledName": "$s13DemoFramework4UserV9firstNameSSvp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework4UserV9firstNameSSvg",
+                "mangledName": "$s13DemoFramework4UserV9firstNameSSvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework4UserV8lastNameSSvp",
+            "mangledName": "$s13DemoFramework4UserV8lastNameSSvp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework4UserV8lastNameSSvg",
+                "mangledName": "$s13DemoFramework4UserV8lastNameSSvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "avatar",
+            "printedName": "avatar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework4UserV6avatarSSvp",
+            "mangledName": "$s13DemoFramework4UserV6avatarSSvp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework4UserV6avatarSSvg",
+                "mangledName": "$s13DemoFramework4UserV6avatarSSvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "id",
+                "printedName": "id",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.User.CodingKeys.Type) -> DemoFramework.User.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.User.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.User.CodingKeys",
+                            "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO2idyA2EmF",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO2idyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "email",
+                "printedName": "email",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.User.CodingKeys.Type) -> DemoFramework.User.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.User.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.User.CodingKeys",
+                            "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO5emailyA2EmF",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO5emailyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "firstName",
+                "printedName": "firstName",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.User.CodingKeys.Type) -> DemoFramework.User.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.User.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.User.CodingKeys",
+                            "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO9firstNameyA2EmF",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO9firstNameyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "lastName",
+                "printedName": "lastName",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.User.CodingKeys.Type) -> DemoFramework.User.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.User.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.User.CodingKeys",
+                            "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO8lastNameyA2EmF",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO8lastNameyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Var",
+                "name": "avatar",
+                "printedName": "avatar",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.User.CodingKeys.Type) -> DemoFramework.User.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.User.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.User.CodingKeys",
+                            "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO6avataryA2EmF",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO6avataryA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 4
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.User.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO8rawValueSSvp",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13DemoFramework4UserV10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s13DemoFramework4UserV10CodingKeysO8rawValueSSvg",
+                    "moduleName": "DemoFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO11stringValueSSvp",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13DemoFramework4UserV10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s13DemoFramework4UserV10CodingKeysO11stringValueSSvg",
+                    "moduleName": "DemoFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.User.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO8intValueSiSgvp",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13DemoFramework4UserV10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s13DemoFramework4UserV10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "DemoFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.User.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.User.CodingKeys",
+                        "usr": "s:13DemoFramework4UserV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13DemoFramework4UserV10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s13DemoFramework4UserV10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13DemoFramework4UserV10CodingKeysO",
+            "mangledName": "$s13DemoFramework4UserV10CodingKeysO",
+            "moduleName": "DemoFramework",
+            "enumRawTypeName": "String",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:email:firstName:lastName:avatar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "DemoFramework.User",
+                "usr": "s:13DemoFramework4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DemoFramework4UserV2id5email9firstName04lastG06avatarACSi_S4Stcfc",
+            "mangledName": "$s13DemoFramework4UserV2id5email9firstName04lastG06avatarACSi_S4Stcfc",
+            "moduleName": "DemoFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "DemoFramework.User",
+                "usr": "s:13DemoFramework4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DemoFramework4UserV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13DemoFramework4UserV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DemoFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DemoFramework4UserV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13DemoFramework4UserV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DemoFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13DemoFramework4UserV",
+        "mangledName": "$s13DemoFramework4UserV",
+        "moduleName": "DemoFramework",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserResponse",
+        "printedName": "UserResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "page",
+            "printedName": "page",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework12UserResponseV4pageSivp",
+            "mangledName": "$s13DemoFramework12UserResponseV4pageSivp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework12UserResponseV4pageSivg",
+                "mangledName": "$s13DemoFramework12UserResponseV4pageSivg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "perPage",
+            "printedName": "perPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework12UserResponseV7perPageSivp",
+            "mangledName": "$s13DemoFramework12UserResponseV7perPageSivp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework12UserResponseV7perPageSivg",
+                "mangledName": "$s13DemoFramework12UserResponseV7perPageSivg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "total",
+            "printedName": "total",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework12UserResponseV5totalSivp",
+            "mangledName": "$s13DemoFramework12UserResponseV5totalSivp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework12UserResponseV5totalSivg",
+                "mangledName": "$s13DemoFramework12UserResponseV5totalSivg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalPages",
+            "printedName": "totalPages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework12UserResponseV10totalPagesSivp",
+            "mangledName": "$s13DemoFramework12UserResponseV10totalPagesSivp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework12UserResponseV10totalPagesSivg",
+                "mangledName": "$s13DemoFramework12UserResponseV10totalPagesSivg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DemoFramework.User]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "DemoFramework.User",
+                    "usr": "s:13DemoFramework4UserV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework12UserResponseV4dataSayAA0C0VGvp",
+            "mangledName": "$s13DemoFramework12UserResponseV4dataSayAA0C0VGvp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DemoFramework.User]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "User",
+                        "printedName": "DemoFramework.User",
+                        "usr": "s:13DemoFramework4UserV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework12UserResponseV4dataSayAA0C0VGvg",
+                "mangledName": "$s13DemoFramework12UserResponseV4dataSayAA0C0VGvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "page",
+                "printedName": "page",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.UserResponse.CodingKeys.Type) -> DemoFramework.UserResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.UserResponse.CodingKeys",
+                            "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO4pageyA2EmF",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO4pageyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "perPage",
+                "printedName": "perPage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.UserResponse.CodingKeys.Type) -> DemoFramework.UserResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.UserResponse.CodingKeys",
+                            "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO7perPageyA2EmF",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO7perPageyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "total",
+                "printedName": "total",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.UserResponse.CodingKeys.Type) -> DemoFramework.UserResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.UserResponse.CodingKeys",
+                            "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO5totalyA2EmF",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO5totalyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "totalPages",
+                "printedName": "totalPages",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.UserResponse.CodingKeys.Type) -> DemoFramework.UserResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.UserResponse.CodingKeys",
+                            "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO10totalPagesyA2EmF",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO10totalPagesyA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DemoFramework.UserResponse.CodingKeys.Type) -> DemoFramework.UserResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DemoFramework.UserResponse.CodingKeys",
+                            "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO4datayA2EmF",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO4datayA2EmF",
+                "moduleName": "DemoFramework",
+                "fixedbinaryorder": 4
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.UserResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO8rawValueSSvp",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13DemoFramework12UserResponseV10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO8rawValueSSvg",
+                    "moduleName": "DemoFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO11stringValueSSvp",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13DemoFramework12UserResponseV10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO11stringValueSSvg",
+                    "moduleName": "DemoFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.UserResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO8intValueSiSgvp",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13DemoFramework12UserResponseV10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "DemoFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DemoFramework.UserResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DemoFramework.UserResponse.CodingKeys",
+                        "usr": "s:13DemoFramework12UserResponseV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13DemoFramework12UserResponseV10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13DemoFramework12UserResponseV10CodingKeysO",
+            "mangledName": "$s13DemoFramework12UserResponseV10CodingKeysO",
+            "moduleName": "DemoFramework",
+            "enumRawTypeName": "String",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(page:perPage:total:totalPages:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserResponse",
+                "printedName": "DemoFramework.UserResponse",
+                "usr": "s:13DemoFramework12UserResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DemoFramework.User]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "DemoFramework.User",
+                    "usr": "s:13DemoFramework4UserV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DemoFramework12UserResponseV4page7perPage5total0H5Pages4dataACSi_S3iSayAA0C0VGtcfc",
+            "mangledName": "$s13DemoFramework12UserResponseV4page7perPage5total0H5Pages4dataACSi_S3iSayAA0C0VGtcfc",
+            "moduleName": "DemoFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserResponse",
+                "printedName": "DemoFramework.UserResponse",
+                "usr": "s:13DemoFramework12UserResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DemoFramework12UserResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13DemoFramework12UserResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DemoFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DemoFramework12UserResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13DemoFramework12UserResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DemoFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13DemoFramework12UserResponseV",
+        "mangledName": "$s13DemoFramework12UserResponseV",
+        "moduleName": "DemoFramework",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DemoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ListTableViewCell",
+        "printedName": "ListTableViewCell",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework17ListTableViewCellC10identifierSSvpZ",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC10identifierSSvpZ",
+            "moduleName": "DemoFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework17ListTableViewCellC10identifierSSvgZ",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC10identifierSSvgZ",
+                "moduleName": "DemoFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emailLbl",
+            "printedName": "emailLbl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UILabel?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(py)emailLbl",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC8emailLblSo7UILabelCSgvp",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)emailLbl",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC8emailLblSo7UILabelCSgvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)setEmailLbl:",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC8emailLblSo7UILabelCSgvs",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework17ListTableViewCellC8emailLblSo7UILabelCSgvM",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC8emailLblSo7UILabelCSgvM",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameLbl",
+            "printedName": "nameLbl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UILabel?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(py)nameLbl",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC7nameLblSo7UILabelCSgvp",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)nameLbl",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC7nameLblSo7UILabelCSgvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)setNameLbl:",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC7nameLblSo7UILabelCSgvs",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework17ListTableViewCellC7nameLblSo7UILabelCSgvM",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC7nameLblSo7UILabelCSgvM",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imgView",
+            "printedName": "imgView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIImageView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(py)imgView",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC03imgE0So07UIImageE0CSgvp",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)imgView",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC03imgE0So07UIImageE0CSgvg",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)setImgView:",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC03imgE0So07UIImageE0CSgvs",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DemoFramework17ListTableViewCellC03imgE0So07UIImageE0CSgvM",
+                "mangledName": "$s13DemoFramework17ListTableViewCellC03imgE0So07UIImageE0CSgvM",
+                "moduleName": "DemoFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)awakeFromNib",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC12awakeFromNibyyF",
+            "moduleName": "DemoFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSelected",
+            "printedName": "setSelected(_:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)setSelected:animated:",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC11setSelected_8animatedySb_SbtF",
+            "moduleName": "DemoFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "setSelected:animated:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "DemoFramework.User",
+                "usr": "s:13DemoFramework4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DemoFramework17ListTableViewCellC9configure4withyAA4UserV_tF",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC9configure4withyAA4UserV_tF",
+            "moduleName": "DemoFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:reuseIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ListTableViewCell",
+                "printedName": "DemoFramework.ListTableViewCell",
+                "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CellStyle",
+                "printedName": "UIKit.UITableViewCell.CellStyle",
+                "usr": "c:@E@UITableViewCellStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)initWithStyle:reuseIdentifier:",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC5style15reuseIdentifierACSo07UITableeF5StyleV_SSSgtcfc",
+            "moduleName": "DemoFramework",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "3.0",
+            "objc_name": "initWithStyle:reuseIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DemoFramework.ListTableViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ListTableViewCell",
+                    "printedName": "DemoFramework.ListTableViewCell",
+                    "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell(im)initWithCoder:",
+            "mangledName": "$s13DemoFramework17ListTableViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "DemoFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DemoFramework@objc(cs)ListTableViewCell",
+        "mangledName": "$s13DemoFramework17ListTableViewCellC",
+        "moduleName": "DemoFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableViewCell",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableViewCell",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 10,
+      "value": "\"per_page\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 13,
+      "value": "\"total_pages\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 10,
+      "value": "\"per_page\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 13,
+      "value": "\"total_pages\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Cells\/ListTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 19,
+      "value": "\"ListTableViewCell\""
+    }
+  ]
+}
