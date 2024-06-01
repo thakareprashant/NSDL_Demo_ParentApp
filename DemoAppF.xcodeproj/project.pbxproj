@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181900E32C0B9852006A9344 /* DemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181900E22C0B9852006A9344 /* DemoFramework.framework */; };
 		18D274872C0B1DF500F8D108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D274862C0B1DF500F8D108 /* AppDelegate.swift */; };
 		18D274892C0B1DF500F8D108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D274882C0B1DF500F8D108 /* SceneDelegate.swift */; };
 		18D2748B2C0B1DF500F8D108 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2748A2C0B1DF500F8D108 /* ViewController.swift */; };
 		18D2748E2C0B1DF500F8D108 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18D2748D2C0B1DF500F8D108 /* Base */; };
 		18D274902C0B1DF700F8D108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D2748F2C0B1DF700F8D108 /* Assets.xcassets */; };
 		18D274932C0B1DF700F8D108 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18D274922C0B1DF700F8D108 /* Base */; };
-		18D274C72C0B359500F8D108 /* DemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D274C52C0B358400F8D108 /* DemoFramework.framework */; };
-		18D274C82C0B359500F8D108 /* DemoFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18D274C52C0B358400F8D108 /* DemoFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18D274C82C0B359500F8D108 /* DemoFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		0A95F9A4F998A708322C7EDC /* Pods-DemoAppF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppF.release.xcconfig"; path = "Target Support Files/Pods-DemoAppF/Pods-DemoAppF.release.xcconfig"; sourceTree = "<group>"; };
+		181900E22C0B9852006A9344 /* DemoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DemoFramework.framework; sourceTree = "<group>"; };
 		18D274832C0B1DF500F8D108 /* DemoAppF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D274862C0B1DF500F8D108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D274882C0B1DF500F8D108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +40,6 @@
 		18D2748F2C0B1DF700F8D108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D274922C0B1DF700F8D108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D274942C0B1DF700F8D108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D274C52C0B358400F8D108 /* DemoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DemoFramework.framework; sourceTree = SOURCE_ROOT; };
 		B9B2B43592DABB4974BBB922 /* Pods_DemoAppF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C304039189B740937EDDA049 /* Pods-DemoAppF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppF.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppF/Pods-DemoAppF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D274C72C0B359500F8D108 /* DemoFramework.framework in Frameworks */,
+				181900E32C0B9852006A9344 /* DemoFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +59,7 @@
 		18D2747A2C0B1DF500F8D108 = {
 			isa = PBXGroup;
 			children = (
-				18D274C52C0B358400F8D108 /* DemoFramework.framework */,
+				181900E22C0B9852006A9344 /* DemoFramework.framework */,
 				18D274852C0B1DF500F8D108 /* DemoAppF */,
 				18D274842C0B1DF500F8D108 /* Products */,
 				6C349A0F196771AD8D5D91EB /* Pods */,

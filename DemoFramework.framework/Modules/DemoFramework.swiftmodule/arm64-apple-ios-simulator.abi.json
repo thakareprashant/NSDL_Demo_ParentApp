@@ -131,6 +131,9 @@
             "mangledName": "$s13DemoFramework14NetworkManagerC10fetchUsers4page10completionySi_ys6ResultOyAA12UserResponseVs5Error_pGctF",
             "moduleName": "DemoFramework",
             "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -1060,14 +1063,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework4UserV2idSivp",
-            "mangledName": "$s13DemoFramework4UserV2idSivp",
+            "usr": "s:13DemoFramework4UserV2idSiSgvp",
+            "mangledName": "$s13DemoFramework4UserV2idSiSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -1083,14 +1094,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework4UserV2idSivg",
-                "mangledName": "$s13DemoFramework4UserV2idSivg",
+                "usr": "s:13DemoFramework4UserV2idSiSgvg",
+                "mangledName": "$s13DemoFramework4UserV2idSiSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -1107,14 +1126,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework4UserV5emailSSvp",
-            "mangledName": "$s13DemoFramework4UserV5emailSSvp",
+            "usr": "s:13DemoFramework4UserV5emailSSSgvp",
+            "mangledName": "$s13DemoFramework4UserV5emailSSSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -1130,14 +1157,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework4UserV5emailSSvg",
-                "mangledName": "$s13DemoFramework4UserV5emailSSvg",
+                "usr": "s:13DemoFramework4UserV5emailSSSgvg",
+                "mangledName": "$s13DemoFramework4UserV5emailSSSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -1154,14 +1189,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework4UserV9firstNameSSvp",
-            "mangledName": "$s13DemoFramework4UserV9firstNameSSvp",
+            "usr": "s:13DemoFramework4UserV9firstNameSSSgvp",
+            "mangledName": "$s13DemoFramework4UserV9firstNameSSSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -1177,14 +1220,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework4UserV9firstNameSSvg",
-                "mangledName": "$s13DemoFramework4UserV9firstNameSSvg",
+                "usr": "s:13DemoFramework4UserV9firstNameSSSgvg",
+                "mangledName": "$s13DemoFramework4UserV9firstNameSSSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -1201,14 +1252,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework4UserV8lastNameSSvp",
-            "mangledName": "$s13DemoFramework4UserV8lastNameSSvp",
+            "usr": "s:13DemoFramework4UserV8lastNameSSSgvp",
+            "mangledName": "$s13DemoFramework4UserV8lastNameSSSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -1224,14 +1283,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework4UserV8lastNameSSvg",
-                "mangledName": "$s13DemoFramework4UserV8lastNameSSvg",
+                "usr": "s:13DemoFramework4UserV8lastNameSSSgvg",
+                "mangledName": "$s13DemoFramework4UserV8lastNameSSSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -1248,14 +1315,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework4UserV6avatarSSvp",
-            "mangledName": "$s13DemoFramework4UserV6avatarSSvp",
+            "usr": "s:13DemoFramework4UserV6avatarSSSgvp",
+            "mangledName": "$s13DemoFramework4UserV6avatarSSSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -1271,14 +1346,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework4UserV6avatarSSvg",
-                "mangledName": "$s13DemoFramework4UserV6avatarSSvg",
+                "usr": "s:13DemoFramework4UserV6avatarSSSgvg",
+                "mangledName": "$s13DemoFramework4UserV6avatarSSSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -1802,38 +1885,78 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13DemoFramework4UserV2id5email9firstName04lastG06avatarACSi_S4Stcfc",
-            "mangledName": "$s13DemoFramework4UserV2id5email9firstName04lastG06avatarACSi_S4Stcfc",
+            "usr": "s:13DemoFramework4UserV2id5email9firstName04lastG06avatarACSiSg_SSSgA3Jtcfc",
+            "mangledName": "$s13DemoFramework4UserV2id5email9firstName04lastG06avatarACSiSg_SSSgA3Jtcfc",
             "moduleName": "DemoFramework",
             "implicit": true,
             "init_kind": "Designated"
@@ -1930,14 +2053,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework12UserResponseV4pageSivp",
-            "mangledName": "$s13DemoFramework12UserResponseV4pageSivp",
+            "usr": "s:13DemoFramework12UserResponseV4pageSiSgvp",
+            "mangledName": "$s13DemoFramework12UserResponseV4pageSiSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -1953,14 +2084,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework12UserResponseV4pageSivg",
-                "mangledName": "$s13DemoFramework12UserResponseV4pageSivg",
+                "usr": "s:13DemoFramework12UserResponseV4pageSiSgvg",
+                "mangledName": "$s13DemoFramework12UserResponseV4pageSiSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -1977,14 +2116,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework12UserResponseV7perPageSivp",
-            "mangledName": "$s13DemoFramework12UserResponseV7perPageSivp",
+            "usr": "s:13DemoFramework12UserResponseV7perPageSiSgvp",
+            "mangledName": "$s13DemoFramework12UserResponseV7perPageSiSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -2000,14 +2147,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework12UserResponseV7perPageSivg",
-                "mangledName": "$s13DemoFramework12UserResponseV7perPageSivg",
+                "usr": "s:13DemoFramework12UserResponseV7perPageSiSgvg",
+                "mangledName": "$s13DemoFramework12UserResponseV7perPageSiSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -2024,14 +2179,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework12UserResponseV5totalSivp",
-            "mangledName": "$s13DemoFramework12UserResponseV5totalSivp",
+            "usr": "s:13DemoFramework12UserResponseV5totalSiSgvp",
+            "mangledName": "$s13DemoFramework12UserResponseV5totalSiSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -2047,14 +2210,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework12UserResponseV5totalSivg",
-                "mangledName": "$s13DemoFramework12UserResponseV5totalSivg",
+                "usr": "s:13DemoFramework12UserResponseV5totalSiSgvg",
+                "mangledName": "$s13DemoFramework12UserResponseV5totalSiSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -2071,14 +2242,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13DemoFramework12UserResponseV10totalPagesSivp",
-            "mangledName": "$s13DemoFramework12UserResponseV10totalPagesSivp",
+            "usr": "s:13DemoFramework12UserResponseV10totalPagesSiSgvp",
+            "mangledName": "$s13DemoFramework12UserResponseV10totalPagesSiSgvp",
             "moduleName": "DemoFramework",
             "declAttributes": [
               "HasStorage"
@@ -2094,14 +2273,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework12UserResponseV10totalPagesSivg",
-                "mangledName": "$s13DemoFramework12UserResponseV10totalPagesSivg",
+                "usr": "s:13DemoFramework12UserResponseV10totalPagesSiSgvg",
+                "mangledName": "$s13DemoFramework12UserResponseV10totalPagesSiSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -2118,34 +2305,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DemoFramework.User]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "User",
-                    "printedName": "DemoFramework.User",
-                    "usr": "s:13DemoFramework4UserV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13DemoFramework12UserResponseV4dataSayAA0C0VGvp",
-            "mangledName": "$s13DemoFramework12UserResponseV4dataSayAA0C0VGvp",
-            "moduleName": "DemoFramework",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 4,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "name": "Optional",
+                "printedName": "[DemoFramework.User]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2162,9 +2323,51 @@
                     "usr": "s:Sa"
                   }
                 ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DemoFramework12UserResponseV4dataSayAA0C0VGSgvp",
+            "mangledName": "$s13DemoFramework12UserResponseV4dataSayAA0C0VGSgvp",
+            "moduleName": "DemoFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[DemoFramework.User]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[DemoFramework.User]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "User",
+                            "printedName": "DemoFramework.User",
+                            "usr": "s:13DemoFramework4UserV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
                 "declKind": "Accessor",
-                "usr": "s:13DemoFramework12UserResponseV4dataSayAA0C0VGvg",
-                "mangledName": "$s13DemoFramework12UserResponseV4dataSayAA0C0VGvg",
+                "usr": "s:13DemoFramework12UserResponseV4dataSayAA0C0VGSgvg",
+                "mangledName": "$s13DemoFramework12UserResponseV4dataSayAA0C0VGSgvg",
                 "moduleName": "DemoFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -2688,46 +2891,86 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DemoFramework.User]",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "User",
-                    "printedName": "DemoFramework.User",
-                    "usr": "s:13DemoFramework4UserV"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
-                "usr": "s:Sa"
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[DemoFramework.User]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DemoFramework.User]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "User",
+                        "printedName": "DemoFramework.User",
+                        "usr": "s:13DemoFramework4UserV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13DemoFramework12UserResponseV4page7perPage5total0H5Pages4dataACSi_S3iSayAA0C0VGtcfc",
-            "mangledName": "$s13DemoFramework12UserResponseV4page7perPage5total0H5Pages4dataACSi_S3iSayAA0C0VGtcfc",
+            "usr": "s:13DemoFramework12UserResponseV4page7perPage5total0H5Pages4dataACSiSg_A3ISayAA0C0VGSgtcfc",
+            "mangledName": "$s13DemoFramework12UserResponseV4page7perPage5total0H5Pages4dataACSiSg_A3ISayAA0C0VGSgtcfc",
             "moduleName": "DemoFramework",
             "implicit": true,
             "init_kind": "Designated"
@@ -3503,63 +3746,63 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 339,
+      "offset": 344,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 381,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 339,
+      "offset": 344,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 381,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 634,
+      "offset": 644,
       "length": 10,
       "value": "\"per_page\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 690,
+      "offset": 700,
       "length": 13,
       "value": "\"total_pages\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 634,
+      "offset": 644,
       "length": 10,
       "value": "\"per_page\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Model\/UserModel.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Model\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 690,
+      "offset": 700,
       "length": 13,
       "value": "\"total_pages\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/MyProjects\/DemoFramework\/DemoFramework\/View\/Cells\/ListTableViewCell.swift",
+      "filePath": "\/Users\/apple\/Documents\/NSDL\/DemoFramework\/View\/Cells\/ListTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 172,
       "length": 19,
